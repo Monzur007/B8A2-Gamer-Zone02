@@ -12,11 +12,15 @@ nav {
     width: 80%;
 }
 nav >ul {
-    display: flex;
+    display: flex; 
+}
+nav a {
+    text-decoration: none;
 }
 nav li {
     list-style: none;
     margin-right: 30px;
+    
 }
 .icon-title {
     display: flex;
@@ -87,3 +91,26 @@ margin-right: 10px;
     width: 600px;
     height: 500px;
 }
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav1 {
+        flex-direction: column;
+        
+    }
+}
+@media screen and (max-width:576px) {
+.ul {
+    flex-direction: column;
+}
+}
+
+
+@media screen and (max-width:576px) {
+    .banner-main {
+       flex-direction: column;
+    }
+}
+
