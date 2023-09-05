@@ -137,7 +137,33 @@ margin-right: 10px;
     width: 300px;
     height: 350px;
 }
-
+.play2 {
+    color: darkmagenta;
+}
+.section05 {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 150px;
+}
+.p2 {
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.img7 {
+    width: 550px;
+    height: 600px;
+}
+.img8 {
+    width: 200px;
+    height: 250px;
+}
+.badge {
+    position: relative;
+    bottom: 150px;
+    right: 50px;
+}
 
 
 
