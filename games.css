@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap');
+
+* {
+   font-family: 'Work Sans', sans-serif;
+}
+.header {
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px;
+    width: 80%;
+}
+nav >ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+}
+.icon-title {
+    display: flex;
+    margin-left: 300px;
+    width: 40px;
+    height: 60px;
+  
+}
+.icon01 {
+width: 25px;
+height: 15px;
+margin: 25px;
+margin-right: 10px;
+}
+.t1 {
+    color: magenta;
+}
+.banner-main {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    background-image: url("images/Group\ 14.png");
+    background-repeat: no-repeat;
+}
+.banner1 {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    margin-top: 50px;
+   
+}
+.title02 {
+    margin-bottom: 0px;
+}
+.goat {
+    color:darkorchid;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 0px;
+
+}
+.play {
+    width: 15px;
+}
+.click {
+    width: 15px;
+}
+.btn-head {
+    margin-top: 30px;
+}
+.btn1 {
+    background-color:hotpink;
+    color: white;
+    width: 80px;
+    height: 40px;
+    border-radius: 44px;
+    
+}
+.btn2 {
+    background-color:#4EC5F7;
+    color: white;
+    width: 90px;
+    height: 40px;
+    border-radius: 44px;
+    
+}
+.banner-img {
+    width: 600px;
+    height: 500px;
+}
